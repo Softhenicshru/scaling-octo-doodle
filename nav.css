@@ -1,0 +1,128 @@
+/* Base Styles */
+body {
+    background: url(images/Even\ a\ little\ light\ can\ make\ a\ difference\ in\ the\ dark..png) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    display: inline-block;
+    color: rgb(254, 254, 254);
+    padding: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(156, 48, 48);
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 720px;
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 22, 22);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.button:hover {
+    color: burlywood;
+}
+
+.login {
+    background-color: rgb(95, 22, 22);
+    border-radius: 50px;
+}
+
+nav .login:hover {
+    color: rgb(225, 154, 154);
+}
+
+.logo {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+
+    .button {
+        width: auto;
+        font-size: 15px;
+        padding: 10px 15px;
+        top: auto;
+        left: auto;
+    }
+
+    .logo {
+        width: 100px;
+        height: 100px;
+        top: 5px;
+        left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .button {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    nav ul {
+        padding: 2px;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+        top: 5px;
+        left: 5px;
+    }
+}
