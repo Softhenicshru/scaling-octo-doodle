@@ -2,6 +2,8 @@ body{
     background:url(images/Even\ a\ little\ light\ can\ make\ a\ difference\ in\ the\ dark..png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: auto;
+    width:auto;
 }
 
 
