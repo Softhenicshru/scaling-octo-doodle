@@ -8,6 +8,7 @@ body {
 }
 
 nav{
+    position: relative;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -59,6 +60,7 @@ nav a:hover {
     margin: 0.625rem auto;
     width: 12.5rem; /* 200px / 16px = 12.5rem */
     position: relative;
+    
 }
 
 .button:hover {
@@ -68,7 +70,10 @@ nav a:hover {
 .login {
     background-color: rgb(95, 22, 22);
     border-radius: 2.5rem; /* 50px / 20px = 2.5rem */
-    margin-left: 20px;
+    ;
+    margin: 0.625rem; /* 10px / 16px = 0.625rem */
+    padding: 0.625rem;
+    
 }
 
 nav.login:hover {
